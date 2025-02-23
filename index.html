@@ -1,0 +1,1992 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/style/style.css" />
+		<link rel="icon" href="./icon.ico" sizes="16x16" />
+		<link rel="icon" href="./icon.ico" sizes="32x32" />
+		<link rel="icon" href="./icon.svg" type="image/svg+xml" />
+		<link rel="apple-touch-icon" href="./icon-apple-touch-180x180.png" />
+		<title>Oraganick</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header__inner container">
+				<a
+					class="header__logo logo"
+					href="#"
+					title="Home Page"
+					aria-label="Go to home page"
+				>
+					<img
+						class="logo__image"
+						width="38"
+						height="55"
+						rel="preload"
+						src="./src/images/logo.svg"
+						alt="Логотип компании [Organick]"
+					/>
+					Organick
+				</a>
+				<nav class="header__menu hidden-mobile" aria-label="Main navigate">
+					<ul class="header__menu-list">
+						<li class="header__menu-item">
+							<a
+								href="#"
+								class="header__menu-link"
+								aria-label="Home"
+								title="Go to Home"
+								>Home</a
+							>
+						</li>
+						<li class="header__menu-item">
+							<a
+								href="#"
+								class="header__menu-link"
+								aria-label="About"
+								title="Go to About"
+								>About</a
+							>
+						</li>
+						<li class="header__menu-item">
+							<a
+								href="#"
+								class="header__menu-link"
+								aria-label="Pages"
+								title="Go to Pages"
+								>Pages</a
+							>
+						</li>
+						<li class="header__menu-item">
+							<a
+								href="#"
+								class="header__menu-link"
+								aria-label="Shop"
+								title="Go to Shop"
+								>Shop</a
+							>
+						</li>
+						<li class="header__menu-item">
+							<a
+								href="#"
+								class="header__menu-link"
+								aria-label="Projects"
+								title="Go to Projects"
+								>Projects</a
+							>
+						</li>
+						<li class="header__menu-item">
+							<a
+								href="#"
+								class="header__menu-link"
+								aria-label="News"
+								title="Go to News"
+								>News</a
+							>
+						</li>
+					</ul>
+				</nav>
+				<nav class="header__menu-extra" aria-label="Extra search navigate menu">
+					<form action="#" method="get">
+						<div class="header__menu-extra-box hidden-mobile">
+							<input
+								type="search"
+								class="header__menu-extra-search-txt"
+								placeholder="Type to search"
+								aria-label="Search input"
+							/>
+							<button
+								type="submit"
+								class="header__menu-extra-search-btn"
+								aria-label="Submit search"
+							>
+								<i
+									class="fa-solid fa-magnifying-glass"
+									style="color: #ffffff"
+								></i>
+							</button>
+						</div>
+					</form>
+
+					<div class="header__menu-extra-cart hidden-mobile">
+						<button class="header__menu-extra-cart-btn" aria-label="Cart">
+							<i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+						</button>
+						<a
+							href="#"
+							class="header__menu-extra-cart-counter"
+							aria-label="Cart count"
+							>Cart (0)</a
+						>
+					</div>
+				</nav>
+				<button
+					class="button__burger-menu burger-button visible-mobile"
+					type="button"
+					onclick="mobileOverlay.showModal()"
+				>
+					<span class="visually-hidden">Open burger menu</span>
+				</button>
+			</div>
+		</header>
+
+		<main class="content">
+			<section class="section hero-section">
+				<div class="section__wrapper">
+					<div class="hero__body container">
+						<div class="hero__title">
+							<p class="">100% Natural Food</p>
+							<h1 class="">Choose the best healthier way of life</h1>
+
+							<button class="button hero-button">
+								<span class="button-front hero-front">
+									Explore Now
+									<i class="fa-solid fa-arrow-up-right-from-square"></i>
+								</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section long-card-section">
+				<div class="long-card__body">
+					<h2 class="visually-hidden">Card Offer</h2>
+
+					<ul class="long-card__body-list">
+						<li class="long-card__body-item long-card__body--first">
+							<div class="long-card__body-title">
+								<p
+									class="long-card__body-paragraph long-card__body--first-paragraph"
+								>
+									Natural!!
+								</p>
+								<h3
+									class="long-card__body-description long-card__body--first-description"
+								>
+									Get Garden Fresh Fruits
+								</h3>
+							</div>
+						</li>
+
+						<li class="long-card__body-item long-card__body--two">
+							<div class="long-card__body-title">
+								<p
+									class="long-card__body-paragraph long-card__body--two-paragraph"
+								>
+									Offer!!
+								</p>
+								<h3
+									class="long-card__body-description long-card__body--two-description"
+								>
+									Get 10% off on Vegetables
+								</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="section product-section">
+				<div class="product__about container">
+					<div class="product__body">
+						<div class="product__body-image">
+							<img
+								width="850"
+								height="800"
+								loading="lazy"
+								class=""
+								src="./src/images/fruits-img.avif"
+								alt="fruits image"
+							/>
+						</div>
+
+						<div class="product__body-text">
+							<div class="about__body about__product">
+								<p class="about__body-about long-card__body-paragraph">
+									About Us
+								</p>
+								<h2 class="about__body-title">
+									We Believe in Working Accredited Farmers
+								</h2>
+								<div class="about__body-paragraph">
+									<p class="">
+										Simply dummy text of the printing and typesetting industry.
+										Lorem had ceased to been the industry's standard dummy text
+										ever since the 1500s, when an unknown printer took a galley.
+									</p>
+								</div>
+							</div>
+
+							<ul class="product__body-list">
+								<li class="product__body-item">
+									<div class="product__body-item--img">
+										<img
+											width="53"
+											height="46"
+											loading="lazy"
+											class=""
+											src="./src/images/mailbox.svg"
+											alt="mailbox image"
+										/>
+									</div>
+									<div class="product__body-item--title">
+										<h5 class="product__body-title">Organic Foods Only</h5>
+										<p class="product__body-paragraph">
+											Simply dummy text of the printing and typesetting
+											industry. Lorem Ipsum
+										</p>
+									</div>
+								</li>
+
+								<li class="product__body-item">
+									<div class="product__body-item--img">
+										<img
+											width="53"
+											height="46"
+											loading="lazy"
+											class=""
+											src="./src/images/musk.svg"
+											alt="musk image"
+										/>
+									</div>
+									<div class="product__body-item--title">
+										<h5 class="product__body-title">Quality Standards</h5>
+										<p class="product__body-paragraph">
+											Simply dummy text of the printing and typesetting
+											industry. Lorem Ipsum
+										</p>
+									</div>
+								</li>
+
+								<li class="product__body-item">
+									<button class="button product-button">
+										<span class="button-front product-front">
+											Shop Now
+											<i class="fa-solid fa-arrow-up-right-from-square"></i>
+										</span>
+									</button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section card-section">
+				<div class="card__body container">
+					<div class="card__body-text">
+						<p class="card__body-text--about long-card__body-paragraph">
+							Categories
+						</p>
+						<h5 class="card__body-text--title about__body-title">
+							Our Products
+						</h5>
+					</div>
+					<ul class="card__body-list">
+						<li class="card">
+							<div class="card__header">
+								<span class="card__header-text">Vegetable</span>
+							</div>
+							<div class="card__image">
+								<img
+									width="335"
+									height="324"
+									loading="lazy"
+									class="card__image-image"
+									src="./src/images/brokoli.avif"
+									alt=""
+								/>
+							</div>
+							<div class="card__footer">
+								<div class="card__footer-text">
+									<p class="card__footer-title">Calabrese Broccoli</p>
+								</div>
+								<div class="card__footer-price">
+									<div class="card__footer-price--block">
+										<span class="card__footer-price--underline">$20.00</span>
+										<span class="card__footer-price--price">$13.00</span>
+									</div>
+									<ul class="card__footer-rating">
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card__header">
+								<span class="card__header-text">Fresh</span>
+							</div>
+							<div class="card__image">
+								<img
+									width="335"
+									height="324"
+									loading="lazy"
+									class="card__image-image"
+									src="./src/images/banana.avif"
+									alt="Card Image"
+								/>
+							</div>
+							<div class="card__footer">
+								<div class="card__footer-text">
+									<p class="card__footer-title">Fresh Banana Fruites</p>
+								</div>
+								<div class="card__footer-price">
+									<div class="card__footer-price--block">
+										<span class="card__footer-price--underline">$20.00</span>
+										<span class="card__footer-price--price">$14.00</span>
+									</div>
+									<ul class="card__footer-rating">
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card__header">
+								<span class="card__header-text">Millets</span>
+							</div>
+							<div class="card__image">
+								<img
+									width="335"
+									height="324"
+									loading="lazy"
+									class="card__image-image"
+									src="./src/images/nots.avif"
+									alt="Card Image"
+								/>
+							</div>
+							<div class="card__footer">
+								<div class="card__footer-text">
+									<p class="card__footer-title">White Nuts</p>
+								</div>
+								<div class="card__footer-price">
+									<div class="card__footer-price--block">
+										<span class="card__footer-price--underline">$20.00</span>
+										<span class="card__footer-price--price">$15.00</span>
+									</div>
+									<ul class="card__footer-rating">
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="card">
+							<div class="card__header">
+								<span class="card__header-text">Vegetable</span>
+							</div>
+							<div class="card__image">
+								<img
+									width="335"
+									height="324"
+									loading="lazy"
+									class="card__image-image"
+									src="./src/images/tomato.avif"
+									alt="Card Image"
+								/>
+							</div>
+							<div class="card__footer">
+								<div class="card__footer-text">
+									<p class="card__footer-title">Vegan Red Tomato</p>
+								</div>
+								<div class="card__footer-price">
+									<div class="card__footer-price--block">
+										<span class="card__footer-price--underline">$20.00</span>
+										<span class="card__footer-price--price">$17.00</span>
+									</div>
+									<ul class="card__footer-rating">
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="card hidden-mobile">
+							<div class="card__header">
+								<span class="card__header-text">Health</span>
+							</div>
+							<div class="card__image">
+								<img
+									width="335"
+									height="324"
+									loading="lazy"
+									class="card__image-image"
+									src="./src/images/bean.avif"
+									alt="Card Image"
+								/>
+							</div>
+							<div class="card__footer">
+								<div class="card__footer-text">
+									<p class="card__footer-title">Mung Bean</p>
+								</div>
+								<div class="card__footer-price">
+									<div class="card__footer-price--block">
+										<span class="card__footer-price--underline">$20.00</span>
+										<span class="card__footer-price--price">$11.00</span>
+									</div>
+									<ul class="card__footer-rating">
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="card hidden-mobile">
+							<div class="card__header">
+								<span class="card__header-text">Nuts</span>
+							</div>
+							<div class="card__image">
+								<img
+									width="335"
+									height="324"
+									loading="lazy"
+									class="card__image-image"
+									src="./src/images/hezelnut.avif"
+									alt="Card Image"
+								/>
+							</div>
+							<div class="card__footer">
+								<div class="card__footer-text">
+									<p class="card__footer-title">Brown Hazelnut</p>
+								</div>
+								<div class="card__footer-price">
+									<div class="card__footer-price--block">
+										<span class="card__footer-price--underline">$20.00</span>
+										<span class="card__footer-price--price">$12.00</span>
+									</div>
+									<ul class="card__footer-rating">
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="card hidden-mobile">
+							<div class="card__header">
+								<span class="card__header-text">Fresh</span>
+							</div>
+							<div class="card__image">
+								<img
+									width="335"
+									height="324"
+									loading="lazy"
+									class="card__image-image"
+									src="./src/images/eggs.avif"
+									alt="Card Image"
+								/>
+							</div>
+							<div class="card__footer">
+								<div class="card__footer-text">
+									<p class="card__footer-title">Eggs</p>
+								</div>
+								<div class="card__footer-price">
+									<div class="card__footer-price--block">
+										<span class="card__footer-price--underline">$20.00</span>
+										<span class="card__footer-price--price">$17.00</span>
+									</div>
+									<ul class="card__footer-rating">
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="card hidden-mobile">
+							<div class="card__header">
+								<span class="card__header-text">Fresh</span>
+							</div>
+							<div class="card__image">
+								<img
+									width="335"
+									height="324"
+									loading="lazy"
+									class="card__image-image"
+									src="./src/images/rusk.avif"
+									alt="Card Image"
+								/>
+							</div>
+							<div class="card__footer">
+								<div class="card__footer-text">
+									<p class="card__footer-title">Zelco Suji Elaichi Rusk</p>
+								</div>
+								<div class="card__footer-price">
+									<div class="card__footer-price--block">
+										<span class="card__footer-price--underline">$20.00</span>
+										<span class="card__footer-price--price">$15.00</span>
+									</div>
+									<ul class="card__footer-rating">
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="card__body-button">
+						<button class="button product-button">
+							<span class="button-front product-front"> Load More </span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="section feedback-section">
+				<div class="feedback__wrapper">
+					<div class="feedback container">
+						<div class="feedback__text">
+							<div class="feedback__text-block">
+								<p class="feedback__text-title long-card__body-paragraph">
+									Testimonial
+								</p>
+								<h5 class="feedback__text-about about__body-title">
+									What Our Customer Saying?
+								</h5>
+							</div>
+
+							<div class="feedback__description">
+								<div class="feedback__description-img">
+									<img
+										width="115"
+										height="115"
+										loading="lazy"
+										class="feedback__description-img-images"
+										src="./src/images/avatar-feedback.avif"
+										alt="Avatar"
+									/>
+									<ul class="feedback__description-list card__footer-rating">
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+
+										<li class="card__footer-star">
+											<svg
+												width="15"
+												height="14"
+												viewBox="0 0 15 14"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+													fill="#FFA858"
+												/>
+											</svg>
+										</li>
+									</ul>
+								</div>
+								<div class="feedback__description-paragraph">
+									<p
+										class="feedback__description-paragraph-text about__body-paragraph"
+									>
+										Simply dummy text of the printing and typesetting industry.
+										Lorem Ipsum simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum has been.
+									</p>
+								</div>
+								<div class="feedback__description-names">
+									<h5
+										class="feedback__description-names-name product__body-title"
+									>
+										Sara Taylor
+									</h5>
+									<p
+										class="feedback__description-names-rank about__body-paragraph"
+									>
+										Consumer
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="feedback__circle hidden-mobile hidde-table">
+							<ul class="feedback__circle-list">
+								<li class="feedback__circle-item circle__body">
+									<h5 class="feedback__circle-item-text circle__body-title">
+										100%
+									</h5>
+									<h6 class="feedback__circle-item-chicken circle__body-about">
+										Organick
+									</h6>
+								</li>
+
+								<li class="feedback__circle-item circle__body">
+									<h5 class="feedback__circle-item-text circle__body-title">
+										285
+									</h5>
+									<h6 class="feedback__circle-item-chicken circle__body-about">
+										Active Product
+									</h6>
+								</li>
+
+								<li class="feedback__circle-item circle__body">
+									<h5 class="feedback__circle-item-text circle__body-title">
+										350+
+									</h5>
+									<h6 class="feedback__circle-item-chicken circle__body-about">
+										Organic Orchads
+									</h6>
+								</li>
+
+								<li class="feedback__circle-item circle__body">
+									<h5 class="feedback__circle-item-text circle__body-title">
+										25+
+									</h5>
+									<h6 class="feedback__circle-item-chicken circle__body-about">
+										Years of Farming
+									</h6>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section offer-section">
+				<div class="offer offer__wrapper">
+					<div class="offer__content container">
+						<div class="offer__content-title">
+							<p
+								class="offer__content-about long-card__body-paragraph feedback__text-title"
+							>
+								Offer
+							</p>
+							<div class="offer__content-text">
+								<h2
+									class="offer__content-header long-card__body--first-description"
+								>
+									We Offer Organic For You
+								</h2>
+								<button class="button offer-button hero-button">
+									<span class="button-front offer-front hero-front">
+										View All Product
+										<i class="fa-solid fa-arrow-up-right-from-square"></i>
+									</span>
+								</button>
+							</div>
+						</div>
+						<ul class="offer__content-list">
+							<li class="card">
+								<div class="card__header">
+									<span class="card__header-text">Vegetable</span>
+								</div>
+								<div class="card__image">
+									<img
+										width="335"
+										height="324"
+										loading="lazy"
+										class="card__image-image"
+										src="./src/images/mung.avif"
+										alt="Card Image"
+									/>
+								</div>
+								<div class="card__footer">
+									<div class="card__footer-text">
+										<p class="card__footer-title">Calabrese Broccoli</p>
+									</div>
+									<div class="card__footer-price">
+										<div class="card__footer-price--block">
+											<span class="card__footer-price--underline">$20.00</span>
+											<span class="card__footer-price--price">$13.00</span>
+										</div>
+										<ul class="card__footer-rating">
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="card">
+								<div class="card__header">
+									<span class="card__header-text">Vegetable</span>
+								</div>
+								<div class="card__image">
+									<img
+										width="335"
+										height="324"
+										loading="lazy"
+										class="card__image-image"
+										src="./src/images/hezelnut.avif"
+										alt="Card Image"
+									/>
+								</div>
+								<div class="card__footer">
+									<div class="card__footer-text">
+										<p class="card__footer-title">Calabrese Broccoli</p>
+									</div>
+									<div class="card__footer-price">
+										<div class="card__footer-price--block">
+											<span class="card__footer-price--underline">$20.00</span>
+											<span class="card__footer-price--price">$13.00</span>
+										</div>
+										<ul class="card__footer-rating">
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="card">
+								<div class="card__header">
+									<span class="card__header-text">Vegetable</span>
+								</div>
+								<div class="card__image">
+									<img
+										width="335"
+										height="324"
+										loading="lazy"
+										class="card__image-image"
+										src="./src/images/onion.avif"
+										alt="Card Image"
+									/>
+								</div>
+								<div class="card__footer">
+									<div class="card__footer-text">
+										<p class="card__footer-title">Calabrese Broccoli</p>
+									</div>
+									<div class="card__footer-price">
+										<div class="card__footer-price--block">
+											<span class="card__footer-price--underline">$20.00</span>
+											<span class="card__footer-price--price">$13.00</span>
+										</div>
+										<ul class="card__footer-rating">
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<pathd
+														="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="card">
+								<div class="card__header">
+									<span class="card__header-text">Vegetable</span>
+								</div>
+								<div class="card__image">
+									<img
+										width="335"
+										height="324"
+										loading="lazy"
+										class="card__image-image"
+										src="./src/images/cabbage.avif"
+										alt="Card Image"
+									/>
+								</div>
+								<div class="card__footer">
+									<div class="card__footer-text">
+										<p class="card__footer-title">Calabrese Broccoli</p>
+									</div>
+									<div class="card__footer-price">
+										<div class="card__footer-price--block">
+											<span class="card__footer-price--underline">$20.00</span>
+											<span class="card__footer-price--price">$13.00</span>
+										</div>
+										<ul class="card__footer-rating">
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+											<li class="card__footer-star">
+												<svg
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M6.67806 1.09367C6.98566 0.189974 8.26378 0.189977 8.57138 1.09367L9.5549 3.98313C9.69285 4.3884 10.0735 4.66091 10.5016 4.66091H13.5818C14.5617 4.66091 14.9569 5.92416 14.1517 6.48263L11.7409 8.15456C11.3741 8.40901 11.2203 8.87584 11.3642 9.29851L12.3036 12.0586C12.6145 12.9718 11.5798 13.7523 10.7871 13.2025L8.19462 11.4046C7.85187 11.1668 7.39758 11.1668 7.05483 11.4046L4.46235 13.2025C3.66969 13.7523 2.63496 12.9718 2.9458 12.0586L3.88528 9.29851C4.02915 8.87584 3.87539 8.40901 3.50851 8.15456L1.09777 6.48263C0.292535 5.92416 0.687722 4.66091 1.66767 4.66091H4.74788C5.17598 4.66091 5.55659 4.3884 5.69454 3.98313L6.67806 1.09367Z"
+														fill="#FFA858"
+													/>
+												</svg>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="section eco-section">
+				<div class="eco eco__wrapper">
+					<div class="eco__content container">
+						<div class="eco__content-block">
+							<div class="eco__content-header">
+								<p
+									class="eco__content-title long-card__body-paragraph feedback__text-title"
+								>
+									Eco Friendly
+								</p>
+								<h2 class="eco__conent-about">
+									Econis is a Friendly Organic Store
+								</h2>
+							</div>
+							<div class="eco__content-list">
+								<li class="eco__content-item">
+									<h5 class="eco__content-item--title">
+										Start with Our Company First
+									</h5>
+
+									<p class="eco__content-item--paragraph about__body-paragraph">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptat
+										accusantium doloremque laudantium. Sed ut perspiciatis.
+									</p>
+								</li>
+								<li class="eco__content-item">
+									<h5 class="eco__content-item--title">
+										Learn How to Grow Yourself
+									</h5>
+
+									<p class="eco__content-item--paragraph about__body-paragraph">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptat
+										accusantium doloremque laudantium. Sed ut perspiciatis.
+									</p>
+								</li>
+								<li class="eco__content-item">
+									<h5 class="eco__content-item--title">
+										Farming Strategies of Today
+									</h5>
+
+									<p class="eco__content-item--paragraph about__body-paragraph">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptat
+										accusantium doloremque laudantium. Sed ut perspiciatis.
+									</p>
+								</li>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section organick-section">
+				<div class="organick__wrapper organick">
+					<div class="organick__content">
+						<ul class="organick__content-list">
+							<li class="organick__content-item organick__content-item-juice">
+								<div class="organick__content-title">Organic Juice</div>
+							</li>
+							<li
+								class="organick__content-item organick__content-item-food hidden-mobile"
+							>
+								<div class="organick__content-title">Organic Food</div>
+							</li>
+							<li
+								class="organick__content-item organick__content-item-nuts hidden-mobile"
+							>
+								<div class="organick__content-title">Nuts Cookis</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="section news-section">
+				<div class="news">
+					<div class="news__content container">
+						<div class="news__content-header">
+							<p
+								class="news__content-title long-card__body-paragraph feedback__text-title"
+							>
+								News
+							</p>
+							<div class="news__content-paragraph">
+								<div class="news__content-paragraph-block">
+									<h2 class="news__content-text">
+										Discover weekly content about organic food, & more
+									</h2>
+								</div>
+								<button class="button news-button product-button hero-button">
+									<span class="button-front news-front product-front hero-offer"
+										>More News</span
+									>
+								</button>
+							</div>
+						</div>
+						<div class="news__content-footer">
+							<ul class="news__content-list">
+								<li
+									class="news__content-item news__content-item-one hidde-table"
+								>
+									<div class="news__content-item-date hidden-news">25 Nov</div>
+									<div class="news__content-item-card">
+										<div class="news__content-item-card-block">
+											<p
+												class="news__content-item-paragraph eco__content-item--paragraph about__body-paragraph"
+											>
+												<img src="./src/images/user.svg" alt="User Icon" />By
+												Rachi Card
+											</p>
+											<h5 class="news__content-item-title">
+												The Benefits of Vitamin D & How to Get It
+											</h5>
+											<p
+												class="eco__content-item--paragraph about__body-paragraph"
+											>
+												Simply dummy text of the printing and typesetting
+												industry. Lorem Ipsum
+											</p>
+											<button class="button offer-button hero-button">
+												<span class="button-front offer-front hero-front">
+													Read More
+													<i class="fa-solid fa-arrow-up-right-from-square"></i>
+												</span>
+											</button>
+										</div>
+									</div>
+								</li>
+								<li class="news__content-item news__content-item-two">
+									<div class="news__content-item-date hidden-news">25 Nov</div>
+									<div class="news__content-item-card">
+										<div class="news__content-item-card-block">
+											<p
+												class="news__content-item-paragraph eco__content-item--paragraph about__body-paragraph"
+											>
+												<img src="./src/images/user.svg" alt="User Icon" />By
+												Rachi Card
+											</p>
+											<h5 class="news__content-item-title">
+												The Benefits of Vitamin D & How to Get It
+											</h5>
+											<p
+												class="eco__content-item--paragraph about__body-paragraph"
+											>
+												Simply dummy text of the printing and typesetting
+												industry. Lorem Ipsum
+											</p>
+											<button class="button offer-button hero-button">
+												<span class="button-front offer-front hero-front">
+													Read More
+													<i class="fa-solid fa-arrow-up-right-from-square"></i>
+												</span>
+											</button>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section footer-section">
+				<footer class="footer container">
+					<div class="footer__header">
+						<div class="footer__header-content">
+							<div class="footer__header-text">
+								<h2 class="footer__header-title">
+									Subscribe to <br />
+									our Newsletter
+								</h2>
+							</div>
+							<div class="footer__header-block">
+								<div class="footer__header-input-block">
+									<input
+										class="footer__header-input"
+										type="email"
+										placeholder="Your Email Address"
+									/>
+								</div>
+								<button
+									class="button button product-button footer__header-button"
+								>
+									<span class="button-front product-front footer__header-front"
+										>Subscribe</span
+									>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="footer__footer">
+						<div class="footer__footer-block footer__footer-left">
+							<h4 class="footer__footer-title">Contact Us</h4>
+							<div class="footer__footer-item">
+								<h6 class="footer__footer-item-title">Email</h6>
+								<p class="footer__footer-item-paragraph">
+									<a href="">needhelp@Organia.com</a>
+								</p>
+							</div>
+							<div class="footer__footer-item">
+								<h6 class="footer__footer-item-title">Phone</h6>
+								<p class="footer__footer-item-paragraph">
+									<a href="">666 888 888</a>
+								</p>
+							</div>
+							<div class="footer__footer-item">
+								<h6 class="footer__footer-item-title">Address</h6>
+								<p class="footer__footer-item-paragraph">
+									<a href="">88 road, borklyn street, USA</a>
+								</p>
+							</div>
+						</div>
+						<div class="footer__footer-block footer__footer-center hidde-table">
+							<a
+								class="footer__logo logo"
+								href="#"
+								title="Home Page"
+								aria-label="Go to home page"
+							>
+								<img
+									class="logo__image"
+									width="38"
+									height="55"
+									rel="preload"
+									src="./src/images/logo.svg"
+									alt="Логотип компании [Organick]"
+								/>
+								Organick
+							</a>
+							<p class="footer__footer-item-paragraph">
+								Simply dummy text of the printing and typesetting industry.
+								<br />
+								Lorem Ipsum simply dummy text of the printing
+							</p>
+							<ul class="footer__footer-list">
+								<li class="footer__footer-social-item">
+									<a href="">
+										<img src="./src/images/Insta.svg" alt="Instagram Logo"
+									/></a>
+								</li>
+								<li class="footer__footer-social-item">
+									<a href="">
+										<img src="./src/images/Fb.svg" alt="Facebook logo"
+									/></a>
+								</li>
+								<li class="footer__footer-social-item">
+									<a href="">
+										<img src="./src/images/Twiter.svg" alt="Twiter Logo"
+									/></a>
+								</li>
+								<li class="footer__footer-social-item">
+									<a href="">
+										<img src="./src/images/Pintrest.svg" alt="Pintarest Logo"
+									/></a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__footer-block footer__footer-right">
+							<h4 class="footer__footer-title">Utility Pages</h4>
+							<div class="footer__footer-item">
+								<p class="footer__footer-item-paragraph">
+									<a href="">Style Guide</a>
+								</p>
+							</div>
+							<div class="footer__footer-item">
+								<p class="footer__footer-item-paragraph">
+									<a href="">404 Not Found</a>
+								</p>
+							</div>
+							<div class="footer__footer-item">
+								<p class="footer__footer-item-paragraph">
+									<a href="">Password Protected</a>
+								</p>
+							</div>
+							<div class="footer__footer-item">
+								<p class="footer__footer-item-paragraph">
+									<a href="">Licences</a>
+								</p>
+							</div>
+							<div class="footer__footer-item">
+								<p class="footer__footer-item-paragraph">
+									<a href="">Changelog</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</section>
+		</main>
+
+		<dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+			<form class="mobile-overlay__close-button-wrapper" method="dialog">
+				<button class="mobile-overlay__close-button cross-button" type="submit">
+					<span class="visually-hidden">Close nav menu</span>
+				</button>
+			</form>
+			<div class="mobile-overlay__body">
+				<ul class="mobile-overlay__list">
+					<li class="mobile-overlay__item">
+						<a href="#" class="mobile-overlay__link">Home</a>
+					</li>
+					<li class="mobile-overlay__item">
+						<a href="#" class="mobile-overlay__link">About</a>
+					</li>
+					<li class="mobile-overlay__item">
+						<a href="#" class="mobile-overlay__link">Pages</a>
+					</li>
+					<li class="mobile-overlay__item">
+						<a href="#" class="mobile-overlay__link">Shop</a>
+					</li>
+					<li class="mobile-overlay__item">
+						<a href="#" class="mobile-overlay__link">Projects</a>
+					</li>
+					<li class="mobile-overlay__item">
+						<a href="#" class="mobile-overlay__link">News</a>
+					</li>
+				</ul>
+			</div>
+		</dialog>
+		<script
+			src="https://kit.fontawesome.com/796afb82ae.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
